@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eva AI Copilot</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card" id="eva-card">
+            <div class="nav">
+                <button class="close" id="close-btn">X</button>
+                <span class="title">EVA AI Copilot</span>
+                <button class="menu">☰</button>
+            </div>
+
+            <div class="hero" id="chat-box">
+                <p class="greeting">Hello Saurav, I am EVA, your AI Copilot. How can I assist you today?</p>
+                <button class="table">1. To-Do list for the day</button>
+                <button class="table">2. Important updates for the day</button>
+                <button class="table">3. Request Insights</button>
+                <button class="table">4. ERP Assistance</button>
+                <p class="prompt">Would you like to take action on any of the above items? Please respond with the number of the item.</p>
+            </div>
+
+            <div class="input-section">
+                <button class="attach-btn">📎</button>
+                <input type="text" id="input-field" placeholder="Type your message..." class="input-field">
+                <button class="send-btn" id="send-btn">✈</button>
+                <button class="mic-btn">🎤</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="eva-btn" id="eva-btn">EVA</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
